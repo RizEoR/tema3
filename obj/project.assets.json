@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "mylib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mylib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mylib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mylib/1.0.0": {
+      "type": "project",
+      "path": "../mylib/mylib.csproj",
+      "msbuildProject": "../mylib/mylib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "mylib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\RIZWI\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\практика\\tema3\\tema3.csproj",
+      "projectName": "tema3",
+      "projectPath": "D:\\практика\\tema3\\tema3.csproj",
+      "packagesPath": "C:\\Users\\RIZWI\\.nuget\\packages\\",
+      "outputPath": "D:\\практика\\tema3\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\RIZWI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\практика\\mylib\\mylib.csproj": {
+              "projectPath": "D:\\практика\\mylib\\mylib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
